@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+}
+
+/* NAVBAR */
+#logo-img{
+    width: 40px;
+}
+
+.navbar{
+    background-color: rgba(36, 88, 122, 0.8);
+}
+
+.nav-link:hover{
+    color: rgb(130, 237, 155);
+}
+
+.navbar-toggler{
+    background-color: rgb(87, 203, 153);
+}
