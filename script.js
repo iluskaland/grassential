@@ -8,13 +8,11 @@ let ariaExpanded = button.getAttribute("aria-expanded");
 
 if (ariaExpanded === "true") {
     // Set a different 'top' value when the navbar is expanded
-    headerVideo.style.top = "0px";
-    containerSlide.style.top = "0px";
-    navbar.style.backgroundColor = "rgba(131, 93, 46, 0.6)";
+    headerVideo.style.top = "-230px";
+    containerSlide.style.top = "-230px";
 } else {
     // Set the default 'top' value when the navbar is collapsed
     headerVideo.style.top = "-70px";
     containerSlide.style.top = "-70px";
-    navbar.style.backgroundColor = "rgba(35, 88, 123, 0.2)";
 }
 });
