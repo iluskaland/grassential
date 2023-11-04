@@ -2,6 +2,15 @@ body{
     margin: 0px;
 }
 
+/* COLORS */
+/* body{
+    background-color: rgb(33, 87, 122);
+    background-color: rgb(56, 164, 166);
+    background-color: rgb(87, 203, 153);
+    background-color: rgb(130, 237, 155);
+    background-color: rgb(200, 249, 205); 
+} */
+
 /* NAVBAR */
 #logo-img{
     width: 30px;
@@ -13,7 +22,7 @@ body{
     -webkit-backdrop-filter: blur(8px);
 }
 
-.nav-link{
+.nav-link, .nav-link:visited{
     color: rgb(130, 237, 155);
 }
 
