@@ -7,6 +7,6 @@ toggler.addEventListener("click", function() {
     if (ariaExpanded === "true") {
         navbar.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
     } else {
-        navbar.style.backgroundColor = "rgba(35, 88, 123, 0.2)";
+        navbar.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
     }
 });
