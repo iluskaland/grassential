@@ -47,13 +47,19 @@ body{
     object-fit: cover;
 }
 
+/* ABOUT US */
+.btn-success{
+    background-color: rgb(87, 203, 153);
+    border: 1px solid rgb(87, 203, 153);
+}
+
 /* CARDS */
 .card{
     height: 300px;
 }
 
 .bg-card{
-    background-color: rgba(130, 237, 155, 0.5);
+    background-color: rgba(87, 203, 153, 0.8);
 }
 
 @media (max-width: 768px) {
