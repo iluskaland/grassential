@@ -21,6 +21,8 @@ body{
     background-color: rgba(35, 88, 123, 0.2);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
+    position: fixed;
+    top: 0px;
 }
 
 .nav-link, .nav-link:visited{
@@ -36,16 +38,8 @@ body{
 }
 
 #header-video{
-    top: -70px;
     max-height: 80vh;
     object-fit: cover;
-    transition: 0.5s ease;
-}
-
-#container-slide{
-    position: relative;
-    top: -70px;
-    transition: 0.5s ease;
 }
 
 @media (max-width: 768px) {
