@@ -12,6 +12,11 @@ body{
     background-color: rgba(131, 93, 46, 0.8);
 }  */
 
+/* BASICS */
+.justify{
+    text-align: justify;
+}
+
 /* NAVBAR */
 #logo-img{
     width: 30px;
@@ -21,8 +26,6 @@ body{
     background-color: rgba(35, 88, 123, 0.2);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-    /* position: fixed; */
-    /* top: 0px; */
 }
 
 .nav-link, .nav-link:visited{
@@ -37,6 +40,8 @@ body{
     background-color: rgba(130, 237, 155, 0.8);
 }
 
+/* HEADER */
+
 #header-video{
     max-height: 80vh;
     object-fit: cover;
@@ -44,16 +49,12 @@ body{
 
 @media (max-width: 768px) {
     #header-video{
-        top: -70px;
-        height: 50vh;
-        object-fit: cover;
+        height: 60vh;
     }
 }
 
 @media (max-width: 576px) {
     #header-video{
-        top: -70px;
         height: 40vh;
-        object-fit: cover;
     }
 }
