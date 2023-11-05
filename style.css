@@ -21,8 +21,8 @@ body{
     background-color: rgba(35, 88, 123, 0.2);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-    position: fixed;
-    top: 0px;
+    /* position: fixed; */
+    /* top: 0px; */
 }
 
 .nav-link, .nav-link:visited{
