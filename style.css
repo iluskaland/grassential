@@ -47,6 +47,15 @@ body{
     object-fit: cover;
 }
 
+/* CARDS */
+.card{
+    height: 300px;
+}
+
+.bg-card{
+    background-color: rgba(130, 237, 155, 0.5);
+}
+
 @media (max-width: 768px) {
     #header-video{
         height: 60vh;
