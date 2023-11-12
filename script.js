@@ -13,14 +13,6 @@ toggler.addEventListener("click", function () {
 });
 
 // MOUSE EVENT FOR THE CARDS
-// var cards = document.querySelectorAll('.card');
-
-// cards.forEach(function (card) {
-//     card.addEventListener('mousedown', function () {
-//         this.classList.toggle('active');
-//     });
-// });
-
 let cards = document.querySelectorAll('.card');
 
 cards.forEach(function (card) {
