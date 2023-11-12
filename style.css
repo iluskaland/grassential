@@ -18,6 +18,11 @@ body{
     border: 1px solid rgb(87, 203, 153);
 }
 
+.btn-primary{
+    background-color: rgb(56, 164, 166);
+    border: 1px solid rgb(56, 164, 166);
+}
+
 .justify{
     text-align: justify;
 }
@@ -64,9 +69,58 @@ body{
 }
 
 /* CARDS */
-.card{
+/* card hover system */
+/* thanks for the idea: https://codepen.io/alphardex/pen/bGGwxqE */
+.card {
+    position: relative;
+    display: flex;
     height: 300px;
-}
+    justify-content: center;
+    cursor: pointer;
+    padding: 2em 0;
+    box-shadow: 0 0 6px 0 rgba(#202024, .12);
+    
+    &::before, &::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+    }
+    
+    &::before {
+      width: 0;
+      opacity: 0;
+    }
+    
+    .content {
+      width: 80%;
+    }
+    
+    .card-title {
+      letter-spacing: 2px;
+    }
+    
+    .hover-content {
+      overflow: hidden;
+      max-height: 0;
+      transform: translateY(1em);
+      transition: all 2s ease;
+    }
+    
+    &:hover {
+      box-shadow: 0 10px 20px 0 rgba(#202024, .12);
+      
+      &::before {
+        opacity: 1;
+        transition: opacity 1s ease;
+        transition-delay: 0;
+      }
+      
+      .hover-content {
+        max-height: 15em;
+      }
+    }
+  }
 
 .bg-card-1{
     background-color: rgba(87, 203, 153, 0.8);
@@ -111,5 +165,9 @@ body{
 @media (max-width: 576px) {
     #header-video{
         height: 40vh;
+    }
+
+    .card{
+        height: 350px;
     }
 }
