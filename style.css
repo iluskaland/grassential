@@ -107,7 +107,8 @@ body{
       transition: all 2s ease;
     }
     
-    &:hover {
+    &:hover,
+    &.active {
       box-shadow: 0 10px 20px 0 rgba(#202024, .12);
       
       &::before {
@@ -120,7 +121,7 @@ body{
         max-height: 15em;
       }
     }
-  }
+}
 
 .bg-card-1{
     background-color: rgba(87, 203, 153, 0.8);
@@ -144,16 +145,6 @@ body{
 .footer-bg-hover:hover{
     transition: background-color 1.75s ease-in-out;
     background-color: rgba(0, 0, 0, 0.15);
-}
-
-.border-hover-left:hover{
-    transition: border-left 1.75s ease-in-out;
-    border-left: 1px solid rgb(0, 0, 0);
-}
-
-.border-hover-right:hover{
-    transition: border-right 1.75s ease-in-out;
-    border-right: 1px solid rgb(0, 0, 0);
 }
 
 @media (max-width: 768px) {
