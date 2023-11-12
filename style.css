@@ -23,6 +23,17 @@ body{
     border: 1px solid rgb(56, 164, 166);
 }
 
+.btn-primary:hover, 
+.btn-primary:active{
+    background-color: rgb(56, 164, 166);
+    border: 1px solid rgb(56, 164, 166);
+}
+
+.btn-primary:visited{
+    background-color: rgb(33, 87, 122);
+    border: 1px solid rgb(33, 87, 122);
+}
+
 .justify{
     text-align: justify;
 }
